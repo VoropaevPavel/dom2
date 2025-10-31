@@ -1,0 +1,1 @@
+.game-container{display:grid;gap:10px;grid-template-columns:repeat(4,1fr);margin:20px auto;max-width:600px}.cell{align-items:center;background-color:#e0e0e0;border:2px solid #333;border-radius:10px;cursor:pointer;display:flex;height:150px;justify-content:center}.gnome-img{height:auto;transition:transform .3s ease;width:100px}
