@@ -16,7 +16,7 @@ export default class Game {
       const cell = document.createElement("div");
       cell.className = "cell";
       this.cells.push(cell);
-      this.board.appendChild(cell);
+      this.board.append(cell);
     }
   }
 
@@ -30,7 +30,7 @@ export default class Game {
     this.gnome = new Image();
     this.gnome.src = gnomeImage;
     this.gnome.className = "gnome-img";
-    this.cells[randomIndex].appendChild(this.gnome);
+    this.cells[randomIndex].append(this.gnome);
   }
 
   startMoving() {
