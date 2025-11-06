@@ -8,7 +8,7 @@ export default class Game {
 
     this.board = document.getElementById("game");
     if (!this.board) {
-		throw new Error(`Board element with id "${boardId}" not found`);
+		throw new Error(`Board element not found: expected an element with id="game"`);
 }
     this.cells = [];
     this.gnome = null;
