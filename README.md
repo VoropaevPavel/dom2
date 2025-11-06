@@ -35,4 +35,4 @@ Copyright gfycat.com
 
 Всё должно собираться через Webpack (включая картинки и стили) и выкладываться на Github Pages через CI.
 
-![CI](https://github.com/VoropaevPavel/env/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/VoropaevPavel/dom2/actions/workflows/web.yml/badge.svg)
